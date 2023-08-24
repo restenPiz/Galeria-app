@@ -10,6 +10,14 @@ class firstScreen extends StatefulWidget {
 class _firstScreenState extends State<firstScreen> {
   @override
   Widget build(BuildContext context) {
-    return Container();
+    return Scaffold(
+      appBar: AppBar(
+        title: Text('Galeria - App'),
+      ),
+      floatingActionButton: FloatingActionButton(
+        child: Icon(Icons.search),
+        onPressed: (){}
+      ),
+    );
   }
 }
