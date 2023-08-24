@@ -14,6 +14,9 @@ class _firstScreenState extends State<firstScreen> {
       appBar: AppBar(
         title: Text('Galeria - App'),
       ),
+      body: ListView(children: [
+        
+      ]),
       floatingActionButton: FloatingActionButton(
         child: Icon(Icons.search),
         onPressed: (){}
