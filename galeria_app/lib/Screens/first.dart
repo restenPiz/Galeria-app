@@ -27,27 +27,45 @@ class _firstScreenState extends State<firstScreen> {
               child: Text('Hoje'),
             ),
             Row(
+              mainAxisAlignment: MainAxisAlignment.spaceEvenly,
               children: [
-                Expanded(
-                  child: Container(
-                    width: 50,
-                    height: 50,
-                    color: Colors.amber,
-                  ),
+                Container(
+                  width: 150,
+                  height: 150,
+                  color: Colors.amber,
                 ),
-                Expanded(
-                  child: Container(
-                    width: 50,
-                    height: 50,
-                    color: Colors.red,
-                  ),
+                Container(
+                  width: 150,
+                  height: 150,
+                  color: Colors.amber,
                 ),
-                Expanded(
-                  child: Container(
-                    width: 50,
-                    height: 50,
-                    color: Colors.blue,
-                  ),
+                Container(
+                  width: 150,
+                  height: 150,
+                  color: Colors.amber,
+                ),
+              ],
+            ),
+            Container(
+              height: 10,
+            ),
+            Row(
+              mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+              children: [
+                Container(
+                  width: 150,
+                  height: 150,
+                  color: Colors.amber,
+                ),
+                Container(
+                  width: 150,
+                  height: 150,
+                  color: Colors.amber,
+                ),
+                Container(
+                  width: 150,
+                  height: 150,
+                  color: Colors.amber,
                 ),
               ],
             ),
