@@ -22,7 +22,36 @@ class _firstScreenState extends State<firstScreen> {
       //?Inicio do corpo do conteudo do meu app
       body: ListView(children: [
         Column(
-
+          children: [
+            Container(
+              child: Text('Hoje'),
+            ),
+            Row(
+              children: [
+                Expanded(
+                  child: Container(
+                    width: 50,
+                    height: 50,
+                    color: Colors.amber,
+                  ),
+                ),
+                Expanded(
+                  child: Container(
+                    width: 50,
+                    height: 50,
+                    color: Colors.red,
+                  ),
+                ),
+                Expanded(
+                  child: Container(
+                    width: 50,
+                    height: 50,
+                    color: Colors.blue,
+                  ),
+                ),
+              ],
+            ),
+          ],
         ),
       ]),
 
