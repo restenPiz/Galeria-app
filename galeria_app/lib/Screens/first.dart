@@ -13,22 +13,31 @@ class _firstScreenState extends State<firstScreen> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+
+      //?Inicio do meu appBar
       appBar: AppBar(
         title: Text('Galeria - App'),
       ),
+      
+      //?Inicio do corpo do conteudo do meu app
       body: ListView(children: [
 
       ]),
+
+      //?Inicio do link do menu sidebar
       drawer: Drawer(
         child: Column(
           children: [
             ListTile(
               title: Text('Inicio'),
               leading: Icon(Icons.house),
+              onTap: (){},
             ),
           ],
         ),
       ),
+
+      //?Inicio do butao de pesquisa
       floatingActionButton: FloatingActionButton(
         child: Icon(Icons.search),
         onPressed: (){}
