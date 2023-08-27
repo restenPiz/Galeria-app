@@ -33,7 +33,6 @@ class _firstScreenState extends State<firstScreen> {
                 Container(
                   width: 150,
                   height: 150,
-                  color: Colors.amber,
                   child: Image.asset(
                     'assets/b1.JPG',
                   ),
@@ -41,7 +40,6 @@ class _firstScreenState extends State<firstScreen> {
                 Container(
                   width: 150,
                   height: 150,
-                  color: Colors.amber,
                   child: Image.asset(
                     'assets/427408.jpg',
                   ),
@@ -49,7 +47,6 @@ class _firstScreenState extends State<firstScreen> {
                 Container(
                   width: 150,
                   height: 150,
-                  color: Colors.amber,
                   child: Image.asset(
                     'assets/415519.jpg',
                   ),
@@ -65,25 +62,22 @@ class _firstScreenState extends State<firstScreen> {
                 Container(
                   width: 150,
                   height: 150,
-                  color: Colors.amber,
                   child: Image.asset(
-                    '',
+                    'assets/698332.png',
                   ),
                 ),
                 Container(
                   width: 150,
                   height: 150,
-                  color: Colors.amber,
                   child: Image.asset(
-                    '',
+                    'assets/726851.jpg',
                   ),
                 ),
                 Container(
                   width: 150,
                   height: 150,
-                  color: Colors.amber,
                   child: Image.asset(
-                    '',
+                    'assets/727036.png',
                   ),
                 ),
               ],
