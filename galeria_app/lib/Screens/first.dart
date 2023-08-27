@@ -42,11 +42,17 @@ class _firstScreenState extends State<firstScreen> {
                   width: 150,
                   height: 150,
                   color: Colors.amber,
+                  child: Image.asset(
+                    'assets/427408.jpg',
+                  ),
                 ),
                 Container(
                   width: 150,
                   height: 150,
                   color: Colors.amber,
+                  child: Image.asset(
+                    'assets/415519.jpg',
+                  ),
                 ),
               ],
             ),
