@@ -26,6 +26,7 @@ class _firstScreenState extends State<firstScreen> {
             Container(
               child: Text('Hoje'),
             ),
+            //?Inicio da row contendo as fotos da galeria
             Row(
               mainAxisAlignment: MainAxisAlignment.spaceEvenly,
               children: [
@@ -34,8 +35,7 @@ class _firstScreenState extends State<firstScreen> {
                   height: 150,
                   color: Colors.amber,
                   child: Image.asset(
-                    'assets/727036.jpg',
-                    fit: BoxFit.cover,
+                    'assets/b1.JPG',
                   ),
                 ),
                 Container(
