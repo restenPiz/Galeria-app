@@ -21,6 +21,8 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
+      
+      //!Referenciando a minha screen que contem o todo o conteudo
       home: firstScreen(),
     );
   }
