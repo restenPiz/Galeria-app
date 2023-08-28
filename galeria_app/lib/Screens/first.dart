@@ -30,25 +30,37 @@ class _firstScreenState extends State<firstScreen> {
             Row(
               mainAxisAlignment: MainAxisAlignment.spaceEvenly,
               children: [
-                Container(
-                  width: 150,
-                  height: 150,
-                  child: Image.asset(
-                    'assets/b1.JPG',
+                Expanded(
+                  child: GestureDetector(
+                    onTap: () {
+                      // Fecha a tela quando a imagem for tocada
+                      Navigator.pop(context);
+                    },
+                    child: Image.asset(
+                      'assets/b1.JPG',
+                    ), // Substitua pela sua imagem
                   ),
                 ),
-                Container(
-                  width: 150,
-                  height: 150,
-                  child: Image.asset(
-                    'assets/427408.jpg',
+                Expanded(
+                  child: GestureDetector(
+                    onTap: () {
+                      // Fecha a tela quando a imagem for tocada
+                      Navigator.pop(context);
+                    },
+                    child: Image.asset(
+                      'assets/b1.JPG',
+                    ), // Substitua pela sua imagem
                   ),
                 ),
-                Container(
-                  width: 150,
-                  height: 150,
-                  child: Image.asset(
-                    'assets/415519.jpg',
+                Expanded(
+                  child: GestureDetector(
+                    onTap: () {
+                      // Fecha a tela quando a imagem for tocada
+                      Navigator.pop(context);
+                    },
+                    child: Image.asset(
+                      'assets/b1.JPG',
+                    ), // Substitua pela sua imagem
                   ),
                 ),
               ],
@@ -59,25 +71,37 @@ class _firstScreenState extends State<firstScreen> {
             Row(
               mainAxisAlignment: MainAxisAlignment.spaceEvenly,
               children: [
-                Container(
-                  width: 150,
-                  height: 150,
-                  child: Image.asset(
-                    'assets/698332.png',
+                Expanded(
+                  child: GestureDetector(
+                    onTap: () {
+                      // Fecha a tela quando a imagem for tocada
+                      Navigator.pop(context);
+                    },
+                    child: Image.asset(
+                      'assets/698332.png',
+                    ), // Substitua pela sua imagem
                   ),
                 ),
-                Container(
-                  width: 150,
-                  height: 150,
-                  child: Image.asset(
-                    'assets/726851.jpg',
+                Expanded(
+                  child: GestureDetector(
+                    onTap: () {
+                      // Fecha a tela quando a imagem for tocada
+                      Navigator.pop(context);
+                    },
+                    child: Image.asset(
+                      'assets/726851.jpg',
+                    ), // Substitua pela sua imagem
                   ),
                 ),
-                Container(
-                  width: 150,
-                  height: 150,
-                  child: Image.asset(
-                    'assets/727036.png',
+                Expanded(
+                  child: GestureDetector(
+                    onTap: () {
+                      // Fecha a tela quando a imagem for tocada
+                      Navigator.pop(context);
+                    },
+                    child: Image.asset(
+                      'assets/727036.png',
+                    ), // Substitua pela sua imagem
                   ),
                 ),
               ],
