@@ -44,6 +44,7 @@ class _firstScreenState extends State<firstScreen> {
       //?Inicio do corpo do conteudo do meu app
       body: ListView(children: [
         Column(
+          crossAxisAlignment: CrossAxisAlignment.start,
           children: [
             Container(
               child: Text('Hoje'),
