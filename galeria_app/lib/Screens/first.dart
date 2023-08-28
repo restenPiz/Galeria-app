@@ -14,8 +14,8 @@ class _firstScreenState extends State<firstScreen> {
   //!Criando o array responsavel por guardar as imagens
   List<String> imagePaths = [
     'assets/b1.JPG',
-    'assets/b2.JPG', // Add more image paths as needed
-    'assets/b3.JPG',
+    'assets/415519.jpg', // Add more image paths as needed
+    'assets/427408.jpg',
   ];
 
   //!Inicio do metodo responsavel por abrir o modal com a imagem
