@@ -30,6 +30,7 @@ class _firstScreenState extends State<firstScreen> {
             Row(
               mainAxisAlignment: MainAxisAlignment.spaceEvenly,
               children: [
+                SizedBox(width: 10,),
                 Expanded(
                   child: GestureDetector(
                     onTap: () {
@@ -41,6 +42,7 @@ class _firstScreenState extends State<firstScreen> {
                     ), // Substitua pela sua imagem
                   ),
                 ),
+                SizedBox(width: 10,),
                 Expanded(
                   child: GestureDetector(
                     onTap: () {
@@ -52,6 +54,7 @@ class _firstScreenState extends State<firstScreen> {
                     ), // Substitua pela sua imagem
                   ),
                 ),
+                SizedBox(width: 10,),
                 Expanded(
                   child: GestureDetector(
                     onTap: () {
@@ -63,14 +66,16 @@ class _firstScreenState extends State<firstScreen> {
                     ), // Substitua pela sua imagem
                   ),
                 ),
+                SizedBox(width: 10,),
               ],
             ),
             Container(
               height: 10,
             ),
             Row(
-              mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+              mainAxisAlignment: MainAxisAlignment.spaceBetween,
               children: [
+                SizedBox(width: 10,),
                 Expanded(
                   child: GestureDetector(
                     onTap: () {
@@ -82,6 +87,7 @@ class _firstScreenState extends State<firstScreen> {
                     ), // Substitua pela sua imagem
                   ),
                 ),
+                SizedBox(width: 10,),
                 Expanded(
                   child: GestureDetector(
                     onTap: () {
@@ -93,6 +99,7 @@ class _firstScreenState extends State<firstScreen> {
                     ), // Substitua pela sua imagem
                   ),
                 ),
+                SizedBox(width: 10,),
                 Expanded(
                   child: GestureDetector(
                     onTap: () {
@@ -104,6 +111,7 @@ class _firstScreenState extends State<firstScreen> {
                     ), // Substitua pela sua imagem
                   ),
                 ),
+                SizedBox(width: 10,),
               ],
             ),
           ],
