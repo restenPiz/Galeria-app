@@ -20,11 +20,11 @@ class _firstScreenState extends State<firstScreen> {
         return Center(
           child: GestureDetector(
             onTap: () {
-              Navigator.of(context).pop(); // Fechar o modal quando a imagem for tocada
+              Navigator.of(context).pop(); 
             },
             child: Container(
               color: Colors.transparent,
-              child: Image.asset('assets/b1.JPG'), // Substitua pelo caminho da sua imagem
+              child: Image.asset('assets/b1.JPG'), 
             ),
           ),
         );
@@ -62,14 +62,13 @@ class _firstScreenState extends State<firstScreen> {
                     },
                     child: Image.asset(
                       'assets/b1.JPG',
-                    ), // Substitua pela sua imagem
+                    ), 
                   ),
                 ),
                 SizedBox(width: 10,),
                 Expanded(
                   child: GestureDetector(
                     onTap: () {
-                      // Fecha a tela quando a imagem for tocada
                       Navigator.pop(context);
                     },
                     child: Image.asset(
@@ -81,7 +80,6 @@ class _firstScreenState extends State<firstScreen> {
                 Expanded(
                   child: GestureDetector(
                     onTap: () {
-                      // Fecha a tela quando a imagem for tocada
                       Navigator.pop(context);
                     },
                     child: Image.asset(
@@ -102,7 +100,6 @@ class _firstScreenState extends State<firstScreen> {
                 Expanded(
                   child: GestureDetector(
                     onTap: () {
-                      // Fecha a tela quando a imagem for tocada
                       Navigator.pop(context);
                     },
                     child: Image.asset(
@@ -114,7 +111,6 @@ class _firstScreenState extends State<firstScreen> {
                 Expanded(
                   child: GestureDetector(
                     onTap: () {
-                      // Fecha a tela quando a imagem for tocada
                       Navigator.pop(context);
                     },
                     child: Image.asset(
@@ -126,7 +122,6 @@ class _firstScreenState extends State<firstScreen> {
                 Expanded(
                   child: GestureDetector(
                     onTap: () {
-                      // Fecha a tela quando a imagem for tocada
                       Navigator.pop(context);
                     },
                     child: Image.asset(
