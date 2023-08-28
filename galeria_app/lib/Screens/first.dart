@@ -10,6 +10,28 @@ class firstScreen extends StatefulWidget {
 }
 
 class _firstScreenState extends State<firstScreen> {
+
+  //!Inicio do metodo responsavel por abrir o modal com a imagem
+  void _openImageModal(BuildContext context)
+  {
+    showDialog(
+      context: context,
+      builder: (BuildContext context) {
+        return Center(
+          child: GestureDetector(
+            onTap: () {
+              Navigator.of(context).pop(); // Fechar o modal quando a imagem for tocada
+            },
+            child: Container(
+              color: Colors.transparent,
+              child: Image.asset('assets/b1.JPG'), // Substitua pelo caminho da sua imagem
+            ),
+          ),
+        );
+      },
+    );
+  }
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
