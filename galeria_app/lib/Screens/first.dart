@@ -11,14 +11,6 @@ class firstScreen extends StatefulWidget {
 
 class _firstScreenState extends State<firstScreen> {
 
-  //!Criando o array responsavel por guardar as imagens
-  List<String> imagePaths = [
-    'assets/b1.JPG',
-    'assets/698332.png', // Add more image paths as needed
-    'assets/721955.png',
-    'assets/726851.png',
-  ];
-
   //!Inicio do metodo responsavel por abrir o modal com a imagem
   void _openImageModal(BuildContext context)
   {
