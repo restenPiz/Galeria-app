@@ -35,7 +35,7 @@ class _firstScreenState extends State<firstScreen> {
                   child: GestureDetector(
                     onTap: () {
                       // Fecha a tela quando a imagem for tocada
-                      Navigator.pop(context);
+                      print('Imagem clicada!');
                     },
                     child: Image.asset(
                       'assets/b1.JPG',
