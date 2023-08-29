@@ -4,6 +4,7 @@ import 'package:flutter/material.dart';
 
 import 'Screens/first.dart';
 
+//?Inicio do metodo responsavel por iniciar a applicacao
 void main() {
   runApp(const MyApp());
 }
