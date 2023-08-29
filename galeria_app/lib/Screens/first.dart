@@ -94,6 +94,8 @@ class _firstScreenState extends State<firstScreen> {
               height: 10,
             ),
             Row(
+
+              //?Inicio do metodo para dar espaco entre as fotos
               mainAxisAlignment: MainAxisAlignment.spaceBetween,
               children: [
                 SizedBox(width: 10,),
